@@ -3,9 +3,11 @@
 
 int main()
 {
-    int p;
-    for(p=0;p<8;p=p+1){
-        for( int i=1;i<=p;i=i +1){
+    int p,x;
+    printf("set the limit\n");
+    scanf("%d",&x);
+    for(p=0;p<x;p=p+1){
+        for( int i=1;i<=p;i=i+1){
             printf("*");
         }
         printf("*\n");
